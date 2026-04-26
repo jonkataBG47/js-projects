@@ -2,12 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>Calculator</title>
 </head>
 <body>
-<div id = 'tab'>
+<div id='tab'>
     <input type="text" id="result" readonly >
-    <div id = 'button'>
+    <div id='button'>
         <button onclick="display_form('1')">1</button>
         <button onclick="display_form('2')">2</button>
         <button onclick="display_form('3')">3</button>
@@ -25,6 +27,7 @@
         <button onclick="calculate_value()">=</button>
         <button onclick="display_form('.')">.</button>
         <button onclick="clear_display_form()">AC</button>
+        <button onclick= "remove_symbol()"><i class="fa-solid fa-delete-left"></i></button>
     </div>
 </div>
 <script src = 'script.js'></script>
