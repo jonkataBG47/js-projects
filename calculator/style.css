@@ -40,7 +40,7 @@ button {
     height: 60px;
     font-size: 18px;
     border: none;
-    border-radius: 5px;
+    border-radius: 50%;
     background-color: #666;
     color: white;
     cursor: pointer;
@@ -55,7 +55,7 @@ button:active {
     background-color: #555;
 }
 
-button:nth-child(15) { /* = button */
+button:nth-child(15) {
     background-color: #ff9500;
     color: white;
 }
@@ -68,7 +68,7 @@ button:nth-child(15):active {
     background-color: #cc7a08;
 }
 
-button:nth-child(16), button:nth-child(17), button:nth-child(18) { /* ., AC, delete */
+button:nth-child(16), button:nth-child(17), button:nth-child(18) {
     background-color: #a6a6a6;
     color: #333;
 }
